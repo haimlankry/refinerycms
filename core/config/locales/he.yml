@@ -1,0 +1,76 @@
+he:
+  refinery:
+    js:
+      admin:
+        confirm_changes: שינויים שבוצעו לא ישמרו, האם להמשיך ללא שמירת שינויים ?
+    plugins:
+      refinery_core:
+        title: Refinery
+        description: תוספי ליבה
+      refinery_dialogs:
+        title: Dialogs
+        description: תוספי דיאלוג
+    welcome:
+      there_are_no_users: "אין משתמשים מוגדרים כרגע, לכן נגדיר אותך עכשיו"
+    crudify:
+      created: '%{what} נוסף בהצלחה.'
+      updated: '%{what} עודכן בהצלחה.'
+      destroyed: '%{what} הוסר בהצלחה.'
+    site_bar:
+      log_out: ניתוק
+      switch_to_your_website: עבור לאתר
+      switch_to_your_website_editor: עבור לעריכת האתר
+    admin:
+      menu:
+        reorder_menu: שינוי סדר התפריט
+        reorder_menu_done: סיימתי לסדר את התפריט
+      dialogs:
+        show:
+          save: שמור
+          cancel: בטל
+      continue_editing:
+        save_and_continue_editing: 'שמור והמשך עדכון'
+      form_actions:
+        save: שמור
+        cancel: בטל
+        cancel_lose_changes: אם תבטל, תאבד את השינויים שבוצעו כאן
+        delete: הסר
+        close: סגור
+      image_picker:
+        none_selected: .לא נבחרה תמונה, לחץ כאן להוספת תמונה
+        remove_current: הסר תמונה נוכחית
+        change: לחץ כאן לבחירת תמונה
+        show: Show
+      resource_picker:
+        download_current: הורדת קובץ נוכחי
+        opens_in_new_window: פתח בחלון חדש
+        remove_current: "הסר קובץ נוכחי"
+        no_resource_selected: 'אין קבצים שנבחרו כרגע, לחץ להוספת קובץ.'
+        name: הוסף קובץ
+        current: קובץ נוכחי
+      search:
+        button_text: חיפוש
+        results_for: "תוצאות חיפוש ל  '%{query}'"
+        no_results: 'מצטערים, לא נמצאו תוצאות חיפוש.'
+      delete:
+        message: "אתה בטוח שאתה רוצה למחוק את '%{title}'?"
+      error_messages:
+        problems_in_following_fields: ארעו שגיאות בשדות הבאים 
+      help: עזרה
+    message:
+      close: סגור
+      close_this_message: סגור הודעה זו.
+    draft_page_message:
+      not_live: דף זה אינו מפורסם לצפייה ציבורית.
+    footer:
+      copyright: "Copyright © %{year} %{site_name}"
+    no_script:
+      enable_javascript_html: לביצועים מלאים של אתר זה יש להפעיל javascript.
+      here_are: הנה ה
+      instructions_enable_javascript_html: הוראות להפעלת javascript בדפדפן שלך.
+  time:
+    formats:
+      short: "%A, %d %B %Y"
+  will_paginate:
+    previous_label: "&laquo;"
+    next_label: "&raquo;"

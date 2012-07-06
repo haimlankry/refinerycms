@@ -1,0 +1,27 @@
+he:
+  refinery:
+    plugins:
+      refinery_dashboard:
+        title: מבט כולל
+        description: מבט כולל על פעילות ב Refinery
+    admin:
+      dashboard:
+        index:
+          quick_tasks: משימות מהירות
+        actions:
+          add_a_new_page: הוסף דף חדש
+          update_a_page: עדכן דף
+          upload_a_image: העלאת תמונה
+          upload_a_file: העלאת קובץ
+          change_language: שנה שפה
+          see_home_page: הצג דף הבית
+        recent_activity:
+          empty: לא הייתה כל פעילות לאחרונה.
+          latest_activity: פעילות אחרונה
+          latest_activity_message: '%{what} %{kind} %{action}'
+        recent_inquiries:
+          latest_inquiries: פניות אחרונות
+    updated:
+      'with_article "the"': עודכן
+    created:
+      'with_article "the"': נוסף
