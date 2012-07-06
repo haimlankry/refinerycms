@@ -1,0 +1,72 @@
+he:
+  refinery:
+    plugins:
+      refinery_users:
+        title: משתמשים
+        description: ניהול משתמשים
+    admin:
+      users:
+        delete: הסר משתמש לצמיתות
+        edit: ערוך משתמש
+        update:
+          cannot_remove_user_plugin_from_current_user: אינך יכול להסיר את תוסף 'משתמשים' עם המשתמש הנוכחי.
+        form:
+          blank_password_keeps_current: סיסמה ריקה תשאיר את הסיסמה הנוכחית
+          plugin_access: גישה לתוספים
+          role_access: גישה לתפקידים
+          enable_all: הרשה הכל
+        actions:
+          create_new_user: הוסף משתמש חדש
+        user:
+          email_user: שלח מייל למשתמש זה
+          preview: '(%{who}) נוסף %{created_at}'
+    sessions:
+      new:
+        hello_please_sign_in: שלום! נא לבצע כניסה.
+        sign_in: כניסה
+        forgot_password: שכחתי סיסמה
+    user_mailer:
+      reset_notification:
+        subject: קישור לאיפוס סיסמה
+        reset_request_received_for: "בקשה לאיפוס סיסמה נתקבלה עבור %{username}"
+        visit_this_url: גלוש לכתובת הבאה לבחירת סיסמה חדשה
+        remain_same_if_no_action: ססמתך לא תשתנה אם לא בוצעה אף פעולה.
+    users:
+      new:
+        fill_form: מלא את הפרטים הבאים כדי שנוכל להתחיל.
+        sign_up: הרשמה
+      create:
+        welcome: 'ברוך הבא ל Refinery, %{who}'
+      forgot:
+        email_address: כתובת מייל
+        enter_email_address: נא להזין את כתובת דואר אלקטרוני לחשבון שלך.
+        reset_password: איפוס סיסמה
+        blank_email: לא הוזנה כתובת מייל.
+        email_not_associated_with_account_html: "מצטערים, '%{email}' אינו משוייך לאף משתמש .<br />האם אתה בטוח שהזנת כתובת נכונה?"
+        email_reset_sent: נשלחה אליך הודעה, עם קישור לאיפוס הסיסמה.
+        password_encryption: עליך לאפס סיסמה מכיוון שבוצעו שינויים ברמת האבטחה ש Refinery מבצעת כך שסיסמהות נשמרות ברמת הצפנה יותר גבוהה.
+      reset:
+        code_invalid: "מצטערים אך קוד האיפוס הזה פג תוקף או לא תקין. אם אתה נתקל בקשיים נסה להעתיק ולהדביק את הכתובת מההודעה לדפדפן, או להתחיל את תהליך האיפוס מחדש."
+        successful: "איפוס סיסמה בוצע בהצלחה ל '%{email}'"
+        pick_new_password_for: "בחר סיסמה חדשה ל %{email}"
+        reset_password: איפוס סיסמה
+    roles:
+      superuser: משתמש על
+      refinery: Refinery
+  devise:
+    failure:
+      unauthenticated: עליך להכנס למערכת לפני שתוכל להמשיך.
+      invalid: "מצטערים, משתמש או סיסמה לא תקינים."
+    sessions:
+      signed_in: כניסה מוצלחת.
+  activerecord:
+    models:
+      refinery/user: משתמש
+    attributes:
+      refinery/user:
+        login: כניסה
+        username: משתמש
+        password: סיסמה
+        password_confirmation: אישור סיסמה
+        email: כתובת מייל
+        remember_me: זכור אותי

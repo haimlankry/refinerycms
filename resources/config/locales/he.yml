@@ -1,0 +1,36 @@
+he:
+  refinery:
+    plugins:
+      refinery_files:
+        title: קבצים
+        description: העלאה וקישור לקבצים
+    admin:
+      resources:
+        delete: הסר קובץ זה לצמיתות
+        edit: ערוך קובץ זה
+        form:
+          download_current: הורדת קובץ זה
+          or: או
+          replace: " החלף עם זה..."
+          maximum_file_size: גודל הקובץ המקסימלי  %{bytes}.
+        resource:
+          download: הורד קובץ זה (%{size})
+        actions:
+          upload_new: העלאת קובץ חדש
+        records:
+          no_files_yet: אין קבצים עדיין, לחץ "העלאת קובץ" להעלאת הקובץ הראשון שלך.
+        insert:
+          existing: קובץ קיים
+          new: קובץ חדש
+          no_files: אין קבצים.
+        existing_resource:
+          link_to_file: קישור לקובץ זה
+          button_text: הכנס
+  activerecord:
+    models:
+      refinery/resource: קובץ
+    errors:
+      models:
+        refinery/resource:
+          blank: חובה לבחור קובץ להעלאה
+          too_big: הקובץ צריך להיות קטן מ  %{size} bytes בגודל
