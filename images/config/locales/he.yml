@@ -1,0 +1,44 @@
+he:
+  refinery:
+    plugins:
+      refinery_images:
+        title: תמונות
+        description: ניהול תמונות
+    admin:
+      images:
+        delete: הסר תמונה זו לצמיתות
+        edit: ערוך תמונה זו
+        form:
+          image: תמונה
+          use_current_image: השתמש בתמונה נוכחית
+          or: או
+          replace_image: " החלף עם זו..."
+          current_image: תמונה נוכחית
+          maximum_image_size: גודל מקסימלי לתמונה %{bytes}.
+        actions:
+          create_new_image: הוסף תמונה חדשה
+        records:
+          no_images_yet: אין תמונות עדיין, לחץ על "הוסף תמונה חדשה" להוספת התמונה הראשונה שלך.
+        index:
+          view:
+            switch_to: עבור לתצוגת %{view_name} 
+            list: רשימה
+            grid: רשת
+        grid_view:
+          view_live_html: הצג תמונה זו <br/><em>נפתח בחלון חדש</em>
+        existing_image:
+          button_text: הכנס
+          resize_image: לשנות את גודל התמונה?
+          size: גודל
+        insert:
+          existing_image: ספריה
+          new_image: העלאה
+  activerecord:
+    models:
+      refinery/image: תמונה
+    errors:
+      models:
+        refinery/image:
+          blank: יש לבחור תמונה להעלאה.
+          too_big: גודל התמונה צריך להיות קטן מ  %{size} bytes 
+          incorrect_format: 'תמונה צריכה להיות מסוג  JPG, PNG או GIF'

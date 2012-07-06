@@ -1,0 +1,96 @@
+he:
+  refinery:
+    plugins:
+      refinery_pages:
+        title: דפים
+        description: ניהול דפי תוכן
+    admin:
+      pages_dialogs:
+        page_link:
+          link_to_this_page: קישור לדף זה
+        link_to:
+          insert: הכנס
+          your_page:
+            tab_name: הדף שלך
+          web_address:
+            tab_name: אתר
+            location: מיקום
+            new_window: חלון חדש
+            new_window_label: סמן תיבה זו לפתיחת קישור בחלון חדש.
+            not_sure: לא בטוח מה להזין בשדה מעל?
+            step1: גלוש בדפדפן לדף שאתה רוצה לקשר.
+            step2: העתק את כתובת האתר מהדפדפן לשדה מעל.
+          email_address:
+            tab_name: כתובת מייל
+            subject_line_optional: נושא אופציונאלי
+            body_optional: גוף אופציונאלי
+            not_sure: לא בטוח מה לרשום בשדות מעל?
+            step1_html: כתוב או העתק הדבק (לדוגמא מרשימת הכתובת שלך ) את כתובת המייל ל  '<strong>כתובת מייל</strong>' מעל.
+            step2_html: השתמש ב '<strong>שורת הנושא</strong>' אם אתה רוצה לכלול <strong>שורת נושא כתובה מראש</strong>.
+            step3_html: השמש ב <strong>גוף המייל</strong> מעל אם אתה רוצה שההודעה תכיל <strong>הודעה כתובה מראש</strong>.
+          your_resource:
+            tab_name: הקובץ שלך
+            link_to_this_resource: קישור לקובץ זה
+      pages:
+        delete: הסר דף לצמיתות
+        edit: ערוך דף זה
+        new: הוסף דף בן חדש
+        expand_collapse: הרחב או צמצם דפי בן
+        page:
+          view_live_html: הצג דף  <br/><em>(נפתח בחלון חדש)</em>
+          hidden: מוסתר
+          draft: טיוטא
+        form:
+          preview: תצוגה מקדימה
+          preview_changes: צפה בשינויים שלך לפני פירסום הדף
+        form_new_page_parts:
+          title: כותרת
+        form_page_parts:
+          create_content_section: הוסף אזור תוכן
+          delete_content_section: מחק אזור תוכן
+          reorder_content_section: ארגן מחדש אזורי תוכן
+          reorder_content_section_done: סיימתי לארגן אזורי תוכן
+        form_advanced_options:
+          toggle_advanced_options: גישה "תגיות מטה" ואפשרויות תפריט
+          page_options: אפשרויות דף
+          parent_page: דף אבא
+          advanced_options: אפשרויות מתקדמות
+          menu_title: כותרת תפריט
+          custom_slug: סלאג מותאם
+          show_in_menu_title: הצג בתפריט
+          show_in_menu_description: הצג דף זה בתפריט האתר
+          show_in_menu_help: הסר סימון מתיבה זו להסרת הדף מתפריט האתר . שימושי להפניה לדף ללא הצגתו בתפריט.
+          save_as_draft: שמור כטיוטא
+          skip_to_first_child: דלג על דף ראשי
+          skip_to_first_child_label: הפניית הגולש לדף המשני הראשון בתפריט.
+          skip_to_first_child_help: אפשרות זו תקשר את הדף לדף הראשון מתחתיו, שימושי לקיבוץ דפים יחד.
+          link_url: העברה לאתר אחר או דף אחר.
+          link_url_help: אם תרצה שלחיצה בתפריט תעביר את המשתמש לדף אחר או אתר אחר, רשום את כתובתו, אחרת השאר ריק.
+          parent_page_help: תוכל למקם דף זה תחת דף אחר על ידי בחירת דף האב מהרשימה, אחרת השאר ריק ליצירת דף ברמה עליונה.
+          menu_title_help: אם תרצה להציג בתפריט שם אחר משם הדף, רשום אותו כאן.
+          custom_slug_help: סלאג הוא מזהה אנושי לדף, תוכל לשנות את המזהה שהמערכת מייצרת על ידיד הקלדתו כאן.
+          layout_template: תבנית מבנה
+          layout_template_help: תוכל לבחור תבנית מבנה אחרת לדף זה.
+          view_template: תבנית תצוגה
+          view_template_help: ניתן לבחור תבנית תצוגה אחרת לדף זה.
+        form_advanced_options_seo:
+          seo: אופטימיזציית מנועי חיפוש "SEO".
+          seo_override_title: כותרת לדפדפן
+          seo_override_title_help: הזן 5-10 מילות מפתח שיתארו את תוכן הדף.
+          meta_keywords_title: מילות מפתח "META"
+          meta_keywords_help: הזן 5-10 מילים שקשורות לתוכן הדף , יש להפריד בפסיק בין מילים.
+          meta_description_title: תאור מפתח 
+          meta_description_help: הזן 2-3 משפטים שמתארים את תוכן הדף.
+        actions:
+          create_new_page: הוסף דף חדש
+          reorder_pages: אירגון סדר הדפים
+          reorder_pages_done: סיימתי לארגן סדר דפים
+        records:
+          no_pages_yet: אין דפים כרגע, לחץ "הוסף דף חדש" ליצירת הדף הראשון שלך .
+        translator_access: אין לך את ההרשאות המתאימות לעריכת דף בשפה זו.
+  activerecord:
+    models:
+      refinery/page: דף
+    attributes:
+      refinery/page:
+        title: כותרת
