@@ -18,7 +18,7 @@ he:
         recent_activity:
           empty: לא הייתה כל פעילות לאחרונה.
           latest_activity: פעילות אחרונה
-          latest_activity_message: '%{what} %{kind} %{action}'
+          latest_activity_message: '%{kind} %{what} %{action}'
         recent_inquiries:
           latest_inquiries: פניות אחרונות
     updated:
